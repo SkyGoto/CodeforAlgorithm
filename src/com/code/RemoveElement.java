@@ -1,0 +1,18 @@
+package com.code;
+
+
+/**
+ * Topic position: Remove Element
+ * https://leetcode.com/problems/remove-element/
+ */
+public class RemoveElement {
+    public int removeElement(int[] nums, int val) {
+        int l = 0;
+        for (int i=0; i < nums.length; i++ ) {
+            if (nums[i] != val) {
+                nums[l++] = nums[i];
+            }
+        }
+        return l;
+    }
+}
