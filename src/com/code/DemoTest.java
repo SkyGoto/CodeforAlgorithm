@@ -2,11 +2,13 @@ package com.code;
 
 import org.junit.Test;
 
+import java.util.Arrays;
+
 public class DemoTest {
     @Test
     public void demoTest() {
-        CountandSay demo = new CountandSay();
-        System.out.println(demo.countAndSay(4));
+        PlusOne demo = new PlusOne();
+        System.out.println(Arrays.toString(demo.plusOne(new int[]{9, 8, 7, 6, 5, 4, 3, 2, 1, 0})));
     }
 
 
