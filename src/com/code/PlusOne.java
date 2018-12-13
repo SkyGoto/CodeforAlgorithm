@@ -6,8 +6,8 @@ package com.code;
  *
  */
 
-public class PlusOne {
-    public int[] plusOne(int[] digits) {
+class PlusOne {
+    int[] plusOne(int[] digits) {
         int a = 0;
         int [] num ;
         digits[digits.length-1] ++;

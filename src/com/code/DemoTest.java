@@ -7,8 +7,8 @@ import java.util.Arrays;
 public class DemoTest {
     @Test
     public void demoTest() {
-        PlusOne demo = new PlusOne();
-        System.out.println(Arrays.toString(demo.plusOne(new int[]{9, 8, 7, 6, 5, 4, 3, 2, 1, 0})));
+        AddBinary demo = new AddBinary();
+        System.out.println(demo.addBinary("1010","1011"));
     }
 
 

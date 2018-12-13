@@ -6,11 +6,11 @@ package com.code;
  */
 
 public class CountandSay {
-    public String countAndSay(int n) {
+    private String countAndSay(int n) {
         if (n==1) {
             return "1";
         }
-        String a = "";
+        String a ;
         a = countAndSay(n-1);
         char [] b= a.toCharArray();
         a = "";
